@@ -8,6 +8,8 @@ package edu.ncsu.csc574.emailserver.commlayer;
 public interface IUserContext {
 	public String getUsername();
 	
+	public String getDomainName();
+	
 	public boolean isLoggedIn();
 	
 	public String getIPAddress();
